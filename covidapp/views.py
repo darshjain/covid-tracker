@@ -1,10 +1,12 @@
 from django.shortcuts import render
 import requests
 import json
+import os
+
 url = "https://covid-193.p.rapidapi.com/statistics"
 
 headers = {
-    'x-rapidapi-key': "b325bb7db1msh7800dc62c95cd3cp1fa727jsn19cdd173698e",
+    'x-rapidapi-key': os.environ['RAPI_KEY'],
     'x-rapidapi-host': "covid-193.p.rapidapi.com"
 }
 
