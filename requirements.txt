@@ -13,4 +13,4 @@ uritemplate==3.0.1
 urllib3==1.26.4
 virtualenv==20.4.3
 webencodings==0.5.1
-
+python-dotenv==0.17.0
