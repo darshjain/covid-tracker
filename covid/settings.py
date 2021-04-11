@@ -25,7 +25,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 
 DEBUG = os.environ['DJANGO_DEBUG'] == 'TRUE'
 
-ALLOWED_HOSTS = ['.localhost', '127.0.0.1', '[::1]']
+ALLOWED_HOSTS =  ['localhost', '127.0.0.1', '[::1]', '.herokuapp.com']
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
